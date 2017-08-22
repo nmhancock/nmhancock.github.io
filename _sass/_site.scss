@@ -1,0 +1,33 @@
+html,
+body {
+	font-family: "Inconsolata", "Source Sans Pro", sans-serif;
+	color: #e5e5e5;
+	background-color: #262626;
+}
+
+.page-title,
+.post-title {
+  color: #e5e5e5;
+}
+.post-title a {
+  color: #169ACF;
+}
+
+tbody tr:nth-child(odd) td,
+tbody tr:nth-child(odd) th {
+	background-color: #555555;
+}
+
+table {
+	border-color: rgba(229, 229, 229, .2);
+}
+
+.highlight {
+	border: 1px solid;
+	border-color: rgba(229, 229, 229, .2);
+	background-color: #262626;
+}
+
+.masthead-title {
+	color: #e5e5e5;
+}
