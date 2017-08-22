@@ -1,6 +1,9 @@
---- layout: post title: A short note on Column vs Row storage ---
+---
+layout: post
+title: A short note on Column vs Row storage
+---
 
-	I’m writing my own small storage engine for a financial analysis
+I’m writing my own small storage engine for a financial analysis
 application. I want to run quantitative finance-style analysis on the market
 in Eve-Online, so as to hone my skills at such analysis cheaply. Eve-Central
 has a historic dataset of Eve-Online market data which, while not
@@ -22,12 +25,12 @@ determined by the minimum of four consecutive runs.
 |Column (lz4 -9) |   174M    | 13.94 + 33.23 = 47.17  |
 |Column (gz – 9) |   146M    |  13.94 + 171 = 184.94  |
 
-	Note that the times for Row versus Column compression aren’t totally
+Note that the times for Row versus Column compression aren’t totally
 accurate, as I had all the data written to the row or column storage and
 then compressed in one fell swoop, whereas in a real environment the
 compression would be piece-wise.
 
-	For lz4 breaking these data into columns decreases space utilization by
+For lz4 breaking these data into columns decreases space utilization by
 16.75% while increasing the bulk loading time by 61.60%. For gzip the
 numbers are 36.52% and -9.97% (the bulk loading time went down)
 respectively. It remains to be seen why the two algorithms perform so
@@ -36,4 +39,5 @@ difference in CPU utilization doesn’t seem to explain the discrepancy.
 
 ![Newport
 Beach](https://images.unsplash.com/photo-1464149060084-7fcb2dd7650a?dpr=2&auto=format&fit=crop&w=1500&h=1000&q=80&cs=tinysrgb&crop=)
-Photo credit: ![Austin Neill](https://unsplash.com/@arstyy)
+
+Photo credit: [Austin Neill](https://unsplash.com/@arstyy)

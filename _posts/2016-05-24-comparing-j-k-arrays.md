@@ -1,6 +1,9 @@
---- layout: post title: Comparing J and K arrays ---
+---
+layout: post
+title: Comparing J and K arrays
+---
 
-	[J][1] and [K][2] are both descendants of the [APL][3] family of array
+[J][1] and [K][2] are both descendants of the [APL][3] family of array
 programming languages. J is generally considered the more “math-y” of the
 two languages due to it’s more complex notion of array “shape”, which we
 will see in greater detail later. K, on the other hand, is the underlying
@@ -33,7 +36,7 @@ the ‘payload’ of A to be long-aligned. For example, to represent the string
 “Hello, World” n = 14, r = 1, and s = {14, (long) H, (long) e, … }. To represent
 the 3×3 matrix consisting of one through nine in row-major order, the values
 are: n = 9, r = 2, s = {3, 3, 1, 2, …}. In English we would say that a given
-array A is “An s[0] by s[1] by s[2] by .. s[r-1]” array.
+array A is “An s\[0\] by s\[1\] by s\[2\] by .. s\[r-1\]” array.
 
 Though it’s not strictly relevant, I’d be remiss if I didn’t mention that the
 shape and rank properties make for very effective generalized operators. The
@@ -126,3 +129,7 @@ Source for J arrays: _An Implementation of J_ by Roger K. W. Hui
 [2]: https://en.wikipedia.org/wiki/K_%28programming_language%29 "K"
 [3]: https://en.wikipedia.org/wiki/APL_%28programming_language%29 "APL"
 [4]: http://kparc.com/q4/readme.txt "benchmarks"
+
+![Milau Bridge](https://images.unsplash.com/photo-1463906033650-3288c7071a7b?dpr=2&auto=format&fit=crop&w=1500&h=1000&q=80&cs=tinysrgb&crop=)
+Photo credit: [Luca Onniboni](https://unsplash.com/@lucaonniboni "Luca
+Omniboni")

@@ -2,31 +2,33 @@
 permalink:  pretty
 
 # Setup
-title:      Poole
-tagline:    The Jekyll Butler
-url:        http://getpoole.com
-paginate:   1
+title:      Nicholas Hancock
+url:        http://nmhancock.github.io
+paginate:   3
 baseurl:    ""
 
 # Assets
 #
 # We specify the directory for Jekyll so we can use @imports.
 sass:
-	sass_dir:   _sass
-	style:      :compressed
+    sass_dir:   _sass
+    style:      :compressed
 
 # About/contact
 author:
-	name:   Nicholas MacKenzie Hancock
-    url:    https://twitter.com/mdo
-	email:  markdotto@gmail.com
+    name:   Nicholas MacKenzie Hancock
+    url:    https://github.com/nmhancock
+    email:  nicholasmhanco1k@ufl.edu
+
+# Pages in header.
+page_list: ['About', 'Archive', 'Feed']
 
 # Custom vars
 version:    2.0.0
 github:
-	repo:   https://github.com/nmhancock
+    repo:   https://github.com/nmhancock/nmhancock.github.io
 
 # Gems
-gems:
-	- jekyll-paginate
-	- jekyll-gist
+config:
+    - jekyll-paginate
+    - jekyll-gist

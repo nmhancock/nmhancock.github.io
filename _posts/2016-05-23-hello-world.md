@@ -1,4 +1,7 @@
---- layout: post title: Hello World! ---
+---
+layout: post
+title: Hello World!
+---
 
 I’ve created this blog as a historical record for my projects, so that I can
 refresh my memory regarding why I made certain decisions or research that I have
