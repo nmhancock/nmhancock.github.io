@@ -1,0 +1,10 @@
+---
+layout: nil
+---
+
+html,
+body {
+	font-family: "Inconsolata", "Source Sans Pro", sans-serif;
+	color: #e5e5e5;
+	background-color: #262626;
+}
